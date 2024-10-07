@@ -1,0 +1,86 @@
+/* Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%) */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: hsl(218, 23%, 16%);
+    color: #fff;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-flex{
+    background: hsl(217, 19%, 24%);
+    height: fit-content;
+    max-width: 35rem;
+    font-family: 'Manrope';
+
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+.outside{
+    background: #fff;
+}
+.advice{
+font-weight: 800;
+letter-spacing: 0.2rem;
+padding: 0.2rem 0rem;
+}
+
+.divider{
+    margin-top: 1rem;
+    opacity: 60%;
+    margin-bottom: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.refresh{
+    padding: 0.5rem;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: hsl(150, 100%, 66%);
+    position: absolute;
+    bottom: 15.5rem;
+}
+
+.refresh:hover{
+    box-shadow: 0px 0px 50px 0px hsl(150, 100%, 66%);
+}
